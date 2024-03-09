@@ -1,0 +1,19 @@
+name: UltraCore
+version: '${version}'
+main: me.trouper.ultracore.UltraCore
+api-version: 1.19
+authors: [ TheTrouper ]
+description: The only acceptable dupe plugin.
+website: https://thetrouper.github.io/
+permissions:
+  fwm.admin:
+    default: op
+    description: Access to the admin command
+
+commands:
+  ultracore:
+    description: Admin command for admin things
+    usage: /ultracore
+    permission: ultracore.admin
+    aliases:
+      - uc
